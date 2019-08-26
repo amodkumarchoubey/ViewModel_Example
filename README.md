@@ -59,6 +59,32 @@ Fragment . It also handles the communication of the Activity / Fragment with the
 
 
 
+```
+
+
+
+Illustrates usage of Lifecycle and ViewModel Architecture components
+
+
+
+How to use ViewModel?
+To use ViewModel, we need to firstly add proper dependencies into our app/build.gradle app/build.gradle
+
+
+implementation "android.arch.lifecycle:extensions:1.0.0"
+annotationProcessor "android.arch.lifecycle:compiler:1.0.0"
+
+
+
+
+
+
+
+```
+
+
+
+
 
 
 
