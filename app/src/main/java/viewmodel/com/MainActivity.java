@@ -17,14 +17,14 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.txt_count);
 
         // checking without ViewModel concept
-//        ViewModel_DataGenerator modelDataGenerator = new ViewModel_DataGenerator();
-//        String number = modelDataGenerator.getRan_Number();
-//        textView.setText(number);
+        ViewModel_DataGenerator modelDataGenerator = new ViewModel_DataGenerator();
+        String number = modelDataGenerator.getRan_Number();
+        textView.setText(number);
 
 
         // checking with ViewModel concept
-        ViewModel_DataGenerator modelDataGenerator = ViewModelProviders.of(this).get(ViewModel_DataGenerator.class);
-        String number = modelDataGenerator.getRan_Number();
-        textView.setText(number);
+//        ViewModel_DataGenerator modelDataGenerator = ViewModelProviders.of(this).get(ViewModel_DataGenerator.class);
+//        String number = modelDataGenerator.getRan_Number();
+//        textView.setText(number);
     }
 }
